@@ -45,7 +45,7 @@ Welcome to the interactive portion of the workshop! Follow the steps below at yo
 > 1. Click **Push origin** (top bar) to send your commit up to your fork on GitHub
 
 > **Step 6 — Open a Pull Request**
-> 1. Go to your fork on GitHub (github.com/your-username/this-repo)
+> 1. Go to your fork on GitHub (github.com/your-username/git_workshop)
 > 2. You should see a banner: **"This branch is 1 commit ahead"** — click **Contribute** → **Open pull request**
 > 3. Make sure the base repo is the **original** repo (the workshop one), not your fork
 > 4. Give your PR a title and click **Create pull request**
@@ -61,8 +61,8 @@ Welcome to the interactive portion of the workshop! Follow the steps below at yo
 
 > **Step 2 — Clone your fork locally**
 > ```bash
-> git clone https://github.com/{github_username}/this-repo.git
-> cd this-repo
+> git clone https://github.com/{github_username}/git_workshop.git
+> cd git_workshop
 > ```
 
 > **Step 3 — Create your file**
@@ -84,7 +84,7 @@ Welcome to the interactive portion of the workshop! Follow the steps below at yo
 > ```
 
 > **Step 6 — Open a Pull Request**
-> 1. Go to your fork on GitHub (github.com/{github_username}/this-repo)
+> 1. Go to your fork on GitHub (github.com/{github_username}/git_workshop)
 > 2. Click **Contribute** → **Open pull request**
 > 3. Make sure the base repo is the **original** workshop repo
 > 4. Give your PR a title and click **Create pull request**
@@ -107,7 +107,7 @@ Once a few PRs have been merged into the original repo, your fork will be **out 
 
 > **Add the original repo as a remote called `upstream`** (you only need to do this once):
 > ```bash
-> git remote add upstream https://github.com/WORKSHOP_OWNER/this-repo.git
+> git remote add upstream https://github.com/owhite7128/git_workshop.git
 > ```
 >
 > **Fetch and merge the latest changes from upstream:**
